@@ -1,0 +1,158 @@
+.marketContainer {
+  width: 70rem;
+  margin: 0 auto;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6.5rem;
+}
+
+.tradeCryptoBtn {
+  background: #00ffa00d;
+  color: #00ffa0;
+  border: none;
+  border-radius: 3.4rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1.9rem 3.4rem;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.marketHeader {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.marketTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 0 17rem;
+  margin-bottom: 2.5rem;
+}
+
+.marketRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: transparent;
+  padding: 1.2rem 0;
+  border-radius: 2rem;
+  column-gap: 6rem;
+}
+
+.marketCoin {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  min-width: 12rem;
+}
+
+.coinIconCircle {
+  width: 4.813rem;
+  height: 4.813rem;
+  border-radius: 50%;
+  background: #23263a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coinIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.coinName {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.coinCurrency {
+  color: #aaa;
+  display: flex;
+  align-items: start;
+  font-size: 1rem;
+}
+
+.marketChange {
+  min-width: 8rem;
+  text-align: left;
+}
+
+.positive {
+  color: #00ffa0;
+  font-weight: 600;
+  margin-top: 1.2rem;
+}
+
+.negative {
+  color: #cc313d;
+  font-weight: 600;
+  margin-top: 1.2rem;
+}
+
+.marketPrice {
+  min-width: 8rem;
+  text-align: left;
+  color: #fff;
+}
+.price {
+  margin-bottom: 1.2rem;
+}
+
+.marketChart {
+  min-width: 8rem;
+  text-align: left;
+}
+.marketChartImage {
+  width: 100%;
+  height: 2rem;
+  margin-top: 1.2rem;
+  margin-left: -0.5rem;
+}
+.marketChartImage img {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: contain;
+}
+
+.tradeBtn {
+  background: #00ffa01a;
+  color: #00ffa0;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1.5rem 3.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.viewOtherBtn {
+  background: #00ffa026;
+  color: #00ffa0;
+  border: 1.5px solid #00ffa0;
+  border-radius: 2.93 rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1.68rem 2.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 44.33rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.viewOtherBtn:hover {
+  background: #00ffa0;
+  color: #181c2f;
+}

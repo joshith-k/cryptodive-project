@@ -1,0 +1,85 @@
+/* Small card */
+.smallCard {
+  border: 0.5px solid transparent;
+  width: 15.5rem;
+  height: 14.375rem;
+  border-radius: 3.4375rem;
+  background: #01213a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.smallCard:hover {
+  border: 0.5px solid #00ffa0;
+  transition: border 0.5s;
+}
+.iconContainer {
+  margin-top: 3.25rem;
+  margin-left: 5.875rem;
+  margin-right: 5.875rem;
+  width: 5.6875rem;
+  height: 5.6875rem;
+  border-radius: 1.25rem;
+  background: #013c4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.label {
+  position: absolute;
+  bottom: 2.75rem; /* 44px */
+  width: 100%;
+  text-align: center;
+  color: #00ffa0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Medium Card */
+.mediumCard {
+  width: 28.9375rem;
+  height: 21.625rem;
+  border-radius: 2.8125rem;
+  background: #01213a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.25rem 2.1875rem;
+  /* gap: 2.5rem; */
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 1.2rem;
+}
+
+.button {
+  background: none;
+  border: 1px solid #00e6c7;
+  color: #00e6c7;
+  border-radius: 2.8125rem;
+  padding: 1.4375rem 2.9375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #00e6c7;
+  color: #01213a;
+}

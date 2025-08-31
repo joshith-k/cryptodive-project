@@ -1,0 +1,124 @@
+.home {
+  margin-top: 8.625rem;
+  text-align: center;
+}
+.homeHeaderTopText {
+  font-size: 5.938rem;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 1.875rem;
+  color: #00ffa0;
+}
+.homeHeaderBottom {
+  margin-top: 1.875rem;
+}
+.headerBottomText {
+  font-size: 1.5rem;
+  line-height: 162%;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.yellowFadeCircle {
+  position: absolute;
+  top: 17.188rem;
+  left: 11.875rem;
+  width: 4.813rem;
+  height: 4.813rem;
+  border-radius: 50%;
+  background: #fee71533;
+  pointer-events: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yellowFadeCircle img {
+  width: 2.375rem;
+  height: 2.375rem;
+  object-fit: cover;
+}
+.redFadeCircle {
+  position: absolute;
+  top: 15.563rem;
+  left: 89.188rem;
+  width: 6.125rem;
+  height: 6.125rem;
+  border-radius: 50%;
+  background: #cc313d33;
+  pointer-events: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redFadeCircle img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+.purpleFadeCircle {
+  position: absolute;
+  top: 34rem;
+  left: 16.25rem;
+  width: 4.125rem;
+  height: 4.125rem;
+  border-radius: 50%;
+  background: #5a28b033;
+  pointer-events: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.purpleFadeCircle img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.greenFadeCircle {
+  position: absolute;
+  top: 38.063rem;
+  left: 83.5rem;
+  width: 4.625rem;
+  height: 4.625rem;
+  border-radius: 50%;
+  background: #33875a33;
+  pointer-events: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greenFadeCircle img {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: cover;
+}
+.bottomButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.87rem;
+  margin-top: 1.87rem;
+}
+.bottomButtonsBtn {
+  background: #00ffa0;
+  color: #000;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1.5rem 3.5rem;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.bottomButtonsSecBtn {
+  border: 1px solid #00ffa0;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1.5rem 3.5rem;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  font-weight: 600;
+}

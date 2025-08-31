@@ -1,0 +1,19 @@
+.heading {
+  background: #00ffa00d;
+  color: #00ffa0;
+  border: none;
+  border-radius: 3.4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.9rem 3.4rem;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+}
+.subHeading {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
